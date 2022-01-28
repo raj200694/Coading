@@ -1,0 +1,26 @@
+package com.in;
+
+public class Main{
+public static void main(String[] args) {
+	
+	
+	DoublyLinkedList list = new DoublyLinkedList();
+	
+	list.addNode(20);
+	list.addNode(40);
+	list.addNode(60);
+	list.addNode(80);
+	
+	list.addFront(10);
+	list.addEnd(50);
+	list.addAtPosition(30, 2);
+	list.remove_front();
+	list.remove_end();
+	list.removeNodeAtPosition(3);
+	System.out.println(list.findNode( 30));
+
+	list.printlist();
+	
+}
+
+}
